@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پناهگاه مهرورزی اسدآباد | نجات سگ‌های بی‌پناه به مدیریت خانم زهرا نیابتی</title>
+    
+    <!-- بهینه‌سازی سئو برای شهرستان و مدیریت -->
+    <meta name="description" content="پناهگاه مهرورزی به مدیریت خانم زهرا نیابتی در اسدآباد همدان. خانه‌ای امن و شاد برای سگ‌های خیابانی، معلول و بی‌پناه. با ما همراه شوید تا زندگی آن‌ها را نجات دهیم.">
+    <meta name="keywords" content="پناهگاه سگ اسدآباد, پناهگاه مهرورزی, زهرا نیابتی, نجات سگ, سگ معلول, همدان, اسدآباد, کمک به حیوانات, پناهگاه حیوانات">
+    <meta name="robots" content="index, follow">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- نوار ناوبری (با افکت شیشه‌ای در اسکرول) -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-paw" style="color: var(--primary);"></i>
+                <span>پناهگاه مهرورزی</span>
+            </a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="منو">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">خانه</a></li>
+                <li><a href="#about" class="nav-link">درباره ما</a></li>
+                <li><a href="#gallery" class="nav-link">گالری عکس</a></li>
+                <li><a href="#donate" class="nav-link">حمایت مالی</a></li>
+                <li><a href="#contact" class="nav-link">تماس با ما</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- بخش هیرو (با عکس سگ شناور) -->
+    <section class="hero" id="home">
+        <div class="container" style="height: 100%; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; position: relative; z-index: 2;">
+            <div class="hero-content" style="max-width: 600px; z-index: 2; position: relative;">
+                <h1 class="hero-title">نجات زندگی، <br><span class="text-accent">یک سگ در یک زمان</span></h1>
+                <p style="color: white; font-size: 1.2rem; margin-bottom: 30px; opacity: 0.9;">
+                    پناهگاه مهرورزی اسدآباد با مدیریت <strong>خانم زهرا نیابتی</strong>، خانه‌ای امن برای سگ‌های بی‌پناه.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#donate" class="btn btn-primary btn-lg pulse-btn">حمایت کن <i class="fas fa-heart"></i></a>
+                    <a href="#gallery" class="btn btn-outline btn-lg">دیدن گالری</a>
+                </div>
+            </div>
+            <!-- عکس سگ شناور در هیرو -->
+            <div class="hero-image-container">
+                <img src="images/hero-dog.png" alt="سگ نجات یافته پناهگاه مهرورزی اسدآباد" style="border-radius: 20px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- درباره ما -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-wrapper">
+                    <img src="images/about-man.png" alt="مدیریت پناهگاه مهرورزی خانم زهرا نیابتی" style="border-radius: var(--radius); width: 100%; box-shadow: var(--shadow);">
+                </div>
+                <div class="about-content">
+                    <span class="section-tag">درباره ما</span>
+                    <h2 class="section-title">ماموریت ما عشق است</h2>
+                    <p><strong>پناهگاه مهرورزی</strong> زیر نظر <strong>خانم زهرا نیابتی</strong> در اسدآباد همدان، از سال ۱۳۹۸ فعالیت می‌کند. ما به سگ‌های تصادفی، معلول، بی‌صاحب و پیر سرپناه، درمان و عشق می‌دهیم.</p>
+                    <div class="about-features">
+                        <div class="feature-item"><i class="fas fa-paw"></i> درمان و واکسن</div>
+                        <div class="feature-item"><i class="fas fa-wheelchair"></i> سگ‌های معلول</div>
+                        <div class="feature-item"><i class="fas fa-heart"></i> سرپناه گرم</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- گالری عکس‌های سگ‌ها -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" style="background: rgba(255, 138, 101, 0.2);">لحظه‌های مهربانی</span>
+                <h2 class="section-title">نگاهشان پر از امید است</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item large"><img src="images/gallery1.png" alt="سگ با ویلچر در پناهگاه مهرورزی"></div>
+                <div class="gallery-item"><img src="images/gallery2.png" alt="توله سگ های نجات یافته"></div>
+                <div class="gallery-item"><img src="images/gallery3.png" alt="خانم زهرا نیابتی با سگ ها"></div>
+                <div class="gallery-item"><img src="images/gallery4.png" alt="سگ در حال بازی در پناهگاه"></div>
+                <div class="gallery-item"><img src="images/gallery5.png" alt="نگهداری از سگ ها در اسدآباد"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- حمایت مالی -->
+    <section class="section donate" id="donate">
+        <div class="donate-bg">
+            <div class="container">
+                <div class="donate-grid">
+                    <div class="donate-content">
+                        <h2 class="section-title" style="color: white;">با کمک شما، <span style="color: var(--accent);">دم‌ها می‌جنبند</span></h2>
+                        <p style="color: rgba(255,255,255,0.9); font-size: 1.1rem;">شماره حساب اختصاصی پناهگاه مهرورزی</p>
+                        <div class="bank-card">
+                            <div class="bank-number" id="bankNumber">6037-6974-1234-5678</div>
+                            <div class="bank-name">به نام: <strong>کوکب گلزارخرسند</strong></div>
+                            <button class="btn-copy" id="copyBankNumber" style="background: var(--accent); color: var(--dark);"><i class="fas fa-copy"></i> کپی شماره</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- تماس با ما -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">تماس با ما</span>
+                <h2 class="section-title">ما همیشه گوش شما هستیم</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-user-tie"></i></div>
+                        <div class="contact-detail"><h4>مدیریت</h4><p>خانم زهرا نیابتی</p></div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div class="contact-detail"><h4>شماره تماس</h4><p><a href="tel:09187498674">09187498674</a><br><a href="tel:09046303493">09046303493</a></p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- اسکریپت چت بات آنلاین (کد خالی برای Tawk.to) - اینجا را بعدا پر کنید -->
+    <script type="text/javascript">
+        // کد اختصاصی Tawk.to خود را در اینجا قرار دهید
+        // var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        // (function(){
+        //     var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        //     s1.async=true;
+        //     s1.src='https://embed.tawk.to/YOUR_PROPERTY_ID/default';
+        //     s1.charset='UTF-8';
+        //     s1.setAttribute('crossorigin','*');
+        //     s0.parentNode.insertBefore(s1,s0);
+        // })();
+    </script>
+
+    <!-- جاوااسکریپت اصلی سایت -->
+    <script src="js/main.js"></script>
+</body>
+</html>
